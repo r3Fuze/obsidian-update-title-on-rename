@@ -1,11 +1,11 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
+	"id": "update-title-on-rename",
+	"name": "Update Title on Rename",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
-	"isDesktopOnly": false
+	"description": "Updates the frontmatter title when renaming a file, but only if no custom title exists.",
+	"author": "fz",
+	"authorUrl": "https://github.com/r3Fuze",
+	"isDesktopOnly": false,
+	"fundingUrl": "https://github.com/sponsors/r3Fuze"
 }
