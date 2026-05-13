@@ -24,7 +24,7 @@ export default class UpdateTitlePlugin extends Plugin {
 
 	async onRename(file: TAbstractFile, oldPath: string) {
 		if (!(file instanceof TFile)) return;
-		
+
 		const oldFileName = oldPath.slice(oldPath.lastIndexOf("/") + 1).replace(/\.md$/, "");
 		const newFileName = file.basename;
 
