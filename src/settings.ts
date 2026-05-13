@@ -37,7 +37,6 @@ export class UpdateTitlePluginSettingTab extends PluginSettingTab {
 			.setName("Title property name")
 			.setDesc("Frontmatter key used to store the file title.")
 			.addText(text => text
-				// eslint-disable-next-line obsidianmd/ui/sentence-case
 				.setPlaceholder("title")
 				.setValue(this.plugin.settings.titlePropertyName)
 				.onChange(async (value) => {

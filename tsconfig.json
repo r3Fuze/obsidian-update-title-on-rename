@@ -24,7 +24,6 @@
 		]
 	},
 	"include": [
-		"src/**/*.ts",
-		"eslint.config.mts"
+		"src/**/*.ts"
 	]
 }

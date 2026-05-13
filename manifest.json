@@ -1,8 +1,8 @@
 {
 	"id": "update-title-on-rename",
 	"name": "Update Title on Rename",
-	"version": "1.0.0",
-	"minAppVersion": "0.15.0",
+	"version": "1.0.1",
+	"minAppVersion": "1.4.4",
 	"description": "Updates the frontmatter title when renaming a file, but only if no custom title exists.",
 	"author": "fz",
 	"authorUrl": "https://github.com/r3Fuze",
