@@ -2,7 +2,15 @@
 
 Keeps the frontmatter `title` property in sync when you rename a file, but only if the title matches the previous filename, so custom titles are left alone.
 
+Also has options to always keep the title in sync, add a title property when renaming a file, and change which property key is used.
+
 ## Installation
+
+### Community plugins
+
+1. Open **Settings → Community plugins** and select **Browse**
+2. Search for **Update Title on Rename**
+3. Select **Install**, then **Enable**
 
 ### BRAT
 
